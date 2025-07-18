@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>当季衣物展示</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>当季衣物展示</h1>
+    </header>
+    <main>
+        <section class="items">
+            <!-- 动态生成衣物列表 -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 当季衣物展示</p>
+    </footer>
+
+    <!-- 衣物详情弹窗 -->
+    <div id="item-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="detail-image" src="" alt="衣物详情图片">
+            <h2 id="detail-title"></h2>
+            <p id="detail-description"></p>
+            <video id="detail-video" controls>
+                <source id="detail-video-source" src="" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
